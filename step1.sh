@@ -4,5 +4,4 @@ sudo systemctl disable lighttpd
 sudo systemctl enable php7.0-fpm
 sudo systemctl enable nginx
 curl -O https://raw.githubusercontent.com/MatzeNbg/pihole-change2nginx-1/master/nginx-default-pihole
-sudo rm /etc/nginx/sites-available/default
 sudo mv nginx-default-pihole /etc/nginx/sites-available/default
